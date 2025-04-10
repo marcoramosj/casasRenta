@@ -1,0 +1,19 @@
+import { House } from "House";
+
+export const houses: House[] = [
+  {
+    id: 1,
+    title: "Casa en la playa",
+    price: 500000,
+    type: "sale",
+    description: "Hermosa casa frente al mar."
+  },
+  {
+    id: 2,
+    title: "Departamento en la ciudad",
+    price: 1500,
+    type: "rent",
+    description: "Moderno departamento en el centro."
+  },
+
+];
